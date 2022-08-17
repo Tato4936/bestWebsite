@@ -1,7 +1,7 @@
 function newwifu() {
     for (let i = 0; i < 20; i++){
     let element = document.createElement('img');
-    fetch("https://api.waifu.pics/sfw/neko")
+    fetch("https://api.waifu.pics/nsfw/waifu")
       .then(res => res.json())
       .then(data => element.src = data["url"])
     element.style.width = "100%";
